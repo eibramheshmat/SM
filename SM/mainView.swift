@@ -18,6 +18,7 @@ class mainView: UIViewController , UICollectionViewDelegate , UICollectionViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         //for make admin
+        ////////
             let newUser = NSEntityDescription.insertNewObject(forEntityName: "User", into: context)
             newUser.setValue("admin", forKey: "name")
             newUser.setValue("admin", forKey: "email")
