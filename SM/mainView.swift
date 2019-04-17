@@ -79,6 +79,10 @@ class mainView: UIViewController , UICollectionViewDelegate , UICollectionViewDa
         }
     }
 
+    
+    ///////////
+    ///////
+    ///////
 
 }
 
